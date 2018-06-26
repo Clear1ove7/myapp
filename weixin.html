@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<body>
+		<div class="mui-content">
+			<div id="w-main-ul" class="mui-table-view"></div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			var nameArr2=new Array('疾风剑豪','提姆队长','英雄联盟','刀锋之影','卡牌大师',
+			                       '九尾妖狐','劫','瑞文','辛德拉','李青');
+			var imgArr=new Array('ys','tm','lol','nd','lp','al','j','rw','xdl','lq');
+			var showdata=function(v,dome){
+		    	var str = '';
+				for(var i = 0; i < v; i++) {
+					var nums = (i % 2 == 0 && i != 0) ? i : false;
+					str += '<div class="w-main-li">'
+					+      '  <div class="li-img">'
+					+      '    <img src="img/'+imgArr[i]+'.jpg">';
+					if(nums) str +='<span class="op"></span>';
+					str += '  </div>'
+					+      '  <div class="li-text">'
+					+      '    <li>'+nameArr2[i]+'</li>'
+					+      '	<li class="smalls">sb'+i+':德玛西亚'+i+'</li>'
+					+      '	<li class="hides">'+imgArr[i]+'</li>'
+					+      '  </div>'
+					+      '  <div class="li-time">09:2'+i+'</div>'
+					+      '</div>';
+					document.getElementById(dome).innerHTML = str;
+				}
+		    }
+			showdata(10,"w-main-ul");
+			var finfChild=function(arr,childs){
+				for(var i=0;i<childs.length;i++){
+					if(typeof childs[i].data!="string"){
+						//console.log(i+":"+childs[i].innerHTML);
+						arr[i]=childs[i];
+					}
+				}
+			}
+			mui('.mui-table-view').on('tap','.w-main-li',function(){
+			    var arr1=new Array();
+			    var arr2=new Array();
+			    
+			    var childs=this.childNodes;
+			    finfChild(arr1,childs);
+			    
+			    var childs2=arr1[3].childNodes;
+			    finfChild(arr2,childs2);
+			    
+			    var name=arr2[1].innerHTML;
+			    var texts=arr2[3].innerHTML;
+			    var icons='img/'+arr2[5].innerHTML+'.jpg';
+			    //alert(name);
+			    mui.openWindow({
+				    url:'liaotian.html',
+				    id:'liaotian.html',
+				    extras:{
+				      name:name,
+				      texts:texts,
+				      icons:icons
+				    }
+				})
+			})
+			
+		</script>
+	</body>
+</html>
