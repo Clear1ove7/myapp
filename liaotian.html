@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/iconfont.css" rel="stylesheet" />
+		<link href="css/iconfont2.css" rel="stylesheet" />
+		<link href="css/index.css" rel="stylesheet" />
+		<link href="css/headers.css" rel="stylesheet" />
+		<link href="css/liaotian.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav bgs">
+			<a class="mui-action-back mui-pull-left mui-icon mui-icon-back"></a>
+			<span class="offsL"></span>
+			<span class="offsL"></span>
+			<span class="mui-pull-left" id="ss"></span>
+			<span class="mui-pull-right mui-icon mui-icon-search"></span>
+		</header>
+		<div class="mui-content">
+		    <div class="l-main">
+		    	<div class="l-main-li">
+		    	  <img id="imgTX" src="" alt=""/>
+		    	  <p id="texts"></p>
+		    	</div>
+		    </div>
+		    <footer>
+		    	<div class="div-lefts">
+		    		<span class="mui-icon mui-icon-mic"></span>
+		    	</div>
+		    	<div class="div-lefts1">
+		    		<input />
+		    	</div>
+		    	<div class="div-lefts2">
+		    		<span class="mui-icon mui-icon-qq"></span>
+		    	</div>
+		    	<div class="div-lefts3">
+		    		<span class="mui-icon mui-icon-plus"></span>
+		    		<button class="text-hides">发送</button>
+		    	</div>
+		    </footer>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			mui.plusReady(function(){
+				var self = plus.webview.currentWebview();
+				name= self.name||'';
+				texts= self.texts||'';
+				icons= self.icons||'';
+				var str=name+texts+icons;
+				var domos='<span class="sjx-left"></span>';
+				document.getElementById("ss").innerHTML=name;
+				document.getElementById("texts").innerHTML=texts+texts+texts+domos;
+				document.getElementById("imgTX").setAttribute("src",icons);
+			})
+		</script>
+	</body>
+
+</html>

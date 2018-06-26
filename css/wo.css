@@ -1,0 +1,78 @@
+#w-main .mui-table-view{
+	margin-top: 20px;
+}
+#w-main .view1{
+	height: 80px;
+}
+#w-main .view1 .mui-table-view-cell{
+	width: 100%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+#w-main .view1 .mui-media-object {
+    line-height: 60px;
+    max-width: 60px;
+    height: 60px;
+    margin-right:15px;
+}
+#w-main .view1 .mui-pull-right{
+	height: 60px;
+	display: inline-block;
+	line-height: 60px;
+}
+#w-main .view1 .mui-pull-right img{
+	width: 25px;
+	height: 25px;
+}
+#w-main  .view1 .mui-media-body {
+    display: inline-block;
+    height: 60px;
+    line-height:30px;
+}
+#w-main .view2{
+	height: 45px;
+}
+#w-main .view2 .mui-table-view-cell{
+	width: 100%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+#w-main .view2 .mui-media-object {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right:15px;
+}
+#w-main .view2 .mui-media-object span{
+	font-size: 25px;
+}
+#w-main  .view2 .mui-media-body {
+	font-size:15px;
+    display: inline-block;
+    height: 25px;
+    line-height:25px;
+}
+#w-main .view3{
+	height: 200px;
+}
+#w-main .view3 .mui-table-view-cell{
+	width: 100%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+#w-main .view3 .mui-media-object {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right:15px;
+}
+#w-main .view3 .mui-media-object span{
+	font-size: 25px;
+}
+#w-main  .view3 .mui-media-body {
+	font-size:15px;
+    display: inline-block;
+    height: 25px;
+    line-height:25px;
+}
+
