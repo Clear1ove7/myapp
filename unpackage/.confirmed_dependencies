@@ -1,0 +1,65 @@
+{
+	"index.html": {
+		"resources": [
+			"img/tm.jpg",
+			"js/jquery.min.js",
+			"img/xdl.jpg",
+			"css/faxian.css",
+			"fonts/mui.ttf",
+			"img/rw.jpg",
+			"img/j.jpg",
+			"img/nd.jpg",
+			"css/headers.css",
+			"img/ys.jpg",
+			"css/index.css",
+			"img/lol.jpg",
+			"js/mui.min.js",
+			"css/iconfont2.css",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"img/lp.jpg",
+			"weixin.html",
+			"img/al.jpg",
+			"img/lq.jpg",
+			"css/tongxunlu.css",
+			"css/wo.css",
+			"img/ewm.png",
+			"img/xdpp.png",
+			"img/gzh.png",
+			"wo.html",
+			"img/yx.png",
+			"img/ql.png",
+			"faxian.html",
+			"img/bq.png",
+			"tongxunlu.html",
+			"img/pyq.png"
+		],
+		"refer": [
+			"liaotian.html"
+		]
+	},
+	"liaotian.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/index.css",
+			"css/faxian.css",
+			"css/iconfont2.css",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/headers.css",
+			"css/wo.css",
+			"css/tongxunlu.css",
+			"img/nd.jpg",
+			"img/j.jpg",
+			"img/lol.jpg",
+			"css/liaotian.css",
+			"img/ys.jpg",
+			"img/lp.jpg",
+			"img/xdl.jpg",
+			"img/lq.jpg",
+			"img/tm.jpg",
+			"img/rw.jpg"
+		]
+	}
+}

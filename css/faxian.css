@@ -1,0 +1,77 @@
+#f-main{
+	width: 100%;
+}
+#f-main .mui-table-view{
+	margin-top: 20px;
+	width: 100%;
+}
+#f-main .view1{
+	height: 80px;
+	width: 100%;
+}
+#f-main .view1 .mui-table-view-cell{
+	width: 100%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+#f-main .view1 .mui-media-object {
+    line-height: 60px;
+    max-width: 60px;
+    height: 60px;
+    margin-right:15px;
+}
+#f-main  .view1 .mui-media-body {
+    display: inline-block;
+    height: 60px;
+    line-height:30px;
+}
+#f-main .view2{
+	height: 45px;
+}
+#f-main .view2 .mui-table-view-cell{
+	width: 100%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+#f-main .view2 .mui-media-object{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right:15px;
+}
+#f-main .mui-media-object img {
+	width: 100%;
+	height: 100%;
+}
+#f-main .view2 .mui-media-object span{
+	font-size: 25px;
+}
+#f-main  .view2 .mui-media-body {
+	font-size:15px;
+    display: inline-block;
+    height: 25px;
+    line-height:25px;
+}
+#f-main .view3{
+	height: 100px;
+}
+#f-main .view3 .mui-table-view-cell{
+	width: 100%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+#f-main .view3 .mui-media-object {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right:15px;
+}
+#f-main .view3 .mui-media-object span{
+	font-size: 25px;
+}
+#f-main  .view3 .mui-media-body {
+	font-size:15px;
+    display: inline-block;
+    height: 25px;
+    line-height:25px;
+}
